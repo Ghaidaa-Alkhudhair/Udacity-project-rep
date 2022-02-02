@@ -1,3 +1,4 @@
+#Ghaida Alkhudhair
 import time
 import pandas as pd
 import numpy as np
@@ -9,6 +10,7 @@ except:
     print("An EXCEPTION OCCURE PLEASE MAKE SURE YOU YOU HAVE THE CVS FILE IN THE DIRECTORY")
 
 def get_filters():
+    #inside method get_filters()
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -83,7 +85,7 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
 
     return df
-
+## before function time_stats(df):
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
