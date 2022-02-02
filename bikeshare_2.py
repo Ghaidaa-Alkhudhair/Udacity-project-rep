@@ -1,3 +1,4 @@
+
 import time
 import pandas as pd
 import numpy as np
@@ -39,11 +40,12 @@ def get_filters():
     while day not in day_list:
         day=input("You entered WRONG data ! please try again and enter one of these day: saturday,sunday,monday,tuesday,wednesday,thursday OR all ").lower()
 
-
+    #print
     print('-'*40)
     return city, month, day
 
 def load_data(city, month, day):
+    # inside def load_data
     """
     Loads data for the specified city and filters by month and day if applicable.
 
