@@ -10,7 +10,7 @@ except:
     print("An EXCEPTION OCCURE PLEASE MAKE SURE YOU YOU HAVE THE CVS FILE IN THE DIRECTORY")
 
 def get_filters():
-    #inside method get_filters()
+    
     """
     Asks user to specify a city, month, and day to analyze.
 
